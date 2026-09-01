@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">Portofolio</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#profile">Profil</a></li>
+          <li><a href="#projects">Proyek</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <section id="profile" class="profile-section">
+      <div class="card">
+        <img src="images/foto-profil.jpeg" alt="Foto Profil" class="avatar">
+        <h1>Muhammad Parsha Murya Putra</h1>
+        <p class="subtitle">web progammer</p>
+        <p class="bio">
+          Halo! Saya seorang pengembang web yang berfokus pada pembuatan antarmuka pengguna yang bersih, responsif, dan mudah digunakan.
+        </p>
+        
+        <div class="skills">
+          <span class="badge">HTML</span>
+          <span class="badge">CSS</span>
+          <span class="badge">JavaScript</span>
+          <span class="badge">React</span>
+        </div>
+
+        <div class="links">
+          <a href="https://github.com" target="_blank" class="btn"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://linkedin.com" target="_blank" class="btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Kontak</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-container">
+      <h2 class="section-title">Proyek Saya</h2>
+      <div class="projects-grid">
+        
+        <div class="project-card">
+          <div class="project-img-placeholder">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <div class="project-content">
+            <h3>Website E-Commerce</h3>
+            <p>Platform toko online dengan sistem keranjang belanja interaktif dan desain bersih.</p>
+            <a href="https://raja-vape-store.vercel.app/" class="btn-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact" class="section-container">
+      <h2 class="section-title">Hubungi Saya</h2>
+      <div class="contact-card" style="text-align: center;">
+        <p style="margin-bottom: 20px; color: #666;">Ada pertanyaan atau ingin bekerja sama? Silakan hubungi saya langsung via WhatsApp.</p>
+        <!-- Ganti 6281234567890 dengan nomor WA Anda -->
+        <a href="https://wa.me/6282139023244?text=Halo%20Muhammad%20Parsha,%20saya%20tertarik%20untuk%20berdiskusi" target="_blank" class="btn btn-submit" style="display: inline-flex; text-decoration: none;">
+          Kirim Pesan via WhatsApp <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Muhammad Parsha Murya Putra. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
